@@ -1,0 +1,169 @@
+{
+  "items": [
+    {
+      "id": "DASH_BOARD",
+      "title": true,
+      "name": "Dash Board",
+      "class": ""
+    },
+    {
+      "id": "DASH_BOARD_01",
+      "name": "모니터링",
+      "url": "/dashboard",
+      "icon": "icon-doc",
+      "children": [
+        {
+          "id": "DASH_BOARD_01_01",
+          "name": "송수신 현황",
+          "url": "/dashboard/trasRevMgmt",
+          "icon": ""
+        },
+        {
+          "id": "DASH_BOARD_01_02",
+          "name": "에러 현황",
+          "url": "/dashboard/errorStatMgmt",
+          "icon": ""
+        },
+        {
+          "id": "DASH_BOARD_01_03",
+          "name": "API Health 현황",
+          "url": "/dashboard/apiHealthMgmt",
+          "icon": ""
+        }
+      ]
+    }, 
+    {
+      "id": "SETL",
+      "title": true,
+      "name": "정산 관리"
+    },
+    {
+      "id": "SETL_01",
+      "name": "정산 기준 관리",
+      "url": "/setlBase",
+      "icon": "icon-doc",
+      "children": [
+        {
+          "id": "SETL_01_01",
+          "name": "정산 항목 관리",
+          "url": "/onm/setlBase/setlItemMgmt",
+          "icon": ""
+        },
+        {
+          "id": "SETL_01_02",
+          "name": "정산 요율 관리",
+          "url": "/onm/setlBase/setlTarifMgmt",
+          "icon": ""
+        },
+        {
+          "id": "SETL_01_03",
+          "name": "정산 대상 관리",
+          "url": "/onm/setlBase/setlTgtMgmt",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "SETL_02",
+      "name": "정산 내역 관리",
+      "url": "/setl",
+      "icon": "icon-layers",
+      "children": [
+        {
+          "id": "SETL_02_01",
+          "name": "정산 내역",
+          "url": "/setl/setlTxn",
+          "icon": ""
+        },
+        {
+          "id": "SETL_02_02",
+          "name": "정산 통계",
+          "url": "/setl/setlBill",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "INSTN",
+      "title": true,
+      "name": "연동기관관리"
+    },
+    {
+      "id": "INSTN_01",
+      "name": "의료기관",
+      "url": "/onm/instn/",
+      "icon": "icon-doc",
+      "children": [
+        {
+          "id": "SETL_01_01",
+          "name": "의료기관 정보관리",
+          "url": "/onm/instn/medicalInstnMgmt",
+          "icon": ""
+        },
+        {
+          "id": "SETL_01_02",
+          "name": "의료기관 연동정보관리",
+          "url": "/onm/instn/medicalInstnMgmt2",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "INSTN_02",
+      "name": "보험사",
+      "url": "/onm/instn/",
+      "icon": "icon-layers",
+      "children": [
+        {
+          "id": "INSTN_02_01",
+          "name": "보험사 정보관리",
+          "url": "/onm/instn/3",
+          "icon": ""
+        },
+        {
+          "id": "INSTN_02_02",
+          "name": "보험사 연동정보관리",
+          "url": "/onm/instn/4",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "ONM",
+      "title": true,
+      "name": "시스템 관리"
+    },
+    {
+      "id": "ONM_01",
+      "name": "사용자 관리",
+      "url": "/onm",
+      "icon": "icon-people",
+      "children": [
+        {
+          "id": "ONM_01_03",
+          "name": "사용자 관리",
+          "url": "/onm/sys/userMgmt",
+          "icon": ""
+        },
+        {
+          "id": "ONM_01_02",
+          "name": "권한 관리",
+          "url": "/onm/sys/menuAutMgmt",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "ONM_02",
+      "name": "자원 관리",
+      "url": "/onm/sys/SysMenuMgmt",
+      "icon": "icon-menu"
+    },
+    {
+      "id": "ONM_03",
+      "name": "코드 정보 관리",
+      "url": "/onm/sys/codeMgmt",
+      "icon": "icon-pencil"
+    }
+  ]
+}

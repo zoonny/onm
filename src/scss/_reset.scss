@@ -1,0 +1,50 @@
+
+html, body    {margin: 0; padding: 0;}
+body {
+    font: 12px  'NanumBarunGothic', sans-serif !important;
+}
+footer  {
+    margin: 0 !important;
+}
+img {
+    margin: 0px; 
+    padding: 0px; 
+    vertical-align: middle;
+}
+a   {
+    color: $defaultColor;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: $pointColor; 
+    text-decoration: none;
+    outline: 0px;    
+}
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+element:active:focus {
+    outline: 0;
+}
+ul, ol, li, dl, dd, dt {
+    list-style: none;
+    margin: 0px; 
+    padding: 0px; 
+}
+article, aside, figcaption, figure, header, hgroup, nav, section {
+    margin: 0px 10px;
+}
+main {
+    margin: 0px;
+}
+.loading {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0;
+
+    li:first-child {
+        margin-bottom: 10px;
+    }
+}

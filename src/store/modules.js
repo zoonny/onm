@@ -1,0 +1,20 @@
+export { default as base } from './comn/base';
+export { default as login } from './comn/login';
+export { default as post } from './example/post';
+export { default as userInfo } from './sys/userMgmt/userInfo';
+export { default as sysMenuInfo } from './sys/sysMenuMgmt/sysMenuInfo';
+export { default as cdGroupBas } from './sys/codeMgmt/cdGroupBas';
+export { default as menuAutInfo } from './sys/menuAutMgmt/menuAutInfo';
+export { default as setlItemInfo } from './setlBase/setlItemMgmt/setlItemInfo';
+export { default as setlTarifInfo } from './setlBase/setlTarifMgmt/setlTarifInfo';
+export { default as setlTgtInfo } from './setlBase/setlTgtMgmt/setlTgtInfo';
+export { default as medicalInstnInfo } from './instn/medicalInstnMgmt/medicalInstnInfo';
+export { default as icomInfo } from './instn/icomMgmt/icomInfo';
+export { default as medicalInstnIfSysInfo } from './instn/medicalInstnMgmt/medicalInstnIfSysInfo';
+export { default as icomInfoSysInfo } from './instn/icomMgmt/icomInfoSysInfo';
+export { default as setlDstrb } from './setlTxn/setlDstrbMgmt/setlDstrb';
+export { default as setlBillTrt } from './setlTxn/setlBillTrtMgmt/setlBillTrt';
+export { default as setlBillStat } from './setlTxn/setlBillTrtMgmt/setlBillStat';
+export { default as setlDstrbStat } from './setlTxn/setlDstrbMgmt/setlDstrbStat';
+
+export { penderReducer as pender } from 'redux-pender';

@@ -1,0 +1,19 @@
+//@import url(../css/font/NanumBarunGothic.css);
+
+*{font-family: 'NanumBarunGothic',sans-serif; font-size:12px; font-weight: 400; line-height:20px; box-sizing:border-box; letter-spacing: -.5px;}
+@font-face {
+ font-family: 'NanumBarunGothic';
+ font-weight: 400;
+ src: url(NanumBarunGothic.eot);
+ src: url(NanumBarunGothic.eot?#iefix) format('embedded-opentype'),
+      url(NanumBarunGothic.woff) format('woff'),
+      url(NanumBarunGothic.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumBarunGothic';
+ font-weight: 700;
+ src: url(NanumBarunGothicBold.eot);
+ src: url(NanumBarunGothicBold.eot?#iefix) format('embedded-opentype'),
+      url(NanumBarunGothicBold.woff) format('woff'),
+      url(NanumBarunGothicBold.ttf) format('truetype');
+}

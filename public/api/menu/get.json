@@ -1,0 +1,154 @@
+{
+  "items": [
+    {
+      "id": "SETLBASE",
+      "title": true,
+      "name": "정산기준 관리"
+    },
+      {
+        "id": "SETLBASE_01",
+        "name": "정산항목 관리",
+        "url": "/onm/setlBase/setlItemMgmt",
+        "icon": "icon-list"
+      },
+      {
+        "id": "SETLBASE_02",
+        "name": "정산요율 관리",
+        "url": "/onm/setlBase/setlTarifMgmt",
+        "icon": "icon-pie-chart"
+      },
+      {
+        "id": "SETLBASE_03",
+        "name": "정산대상 관리",
+        "url": "/onm/setlBase/setlTgtMgmt",
+        "icon": "icon-target"
+    },
+    {
+      "id": "SETLTXNMGT",
+      "title": true,
+      "name": "정산내역 관리"
+    },
+    {
+      "id": "SETLTXN",
+      "name": "정산내역",
+      "url": "/onm/setlTxn",
+      "icon": "icon-layers",
+      "children": [
+        {
+          "id": "SETLTXN_01",
+          "name": "정산내역 조회",
+          "url": "/onm/setlTxn/setlDstrbMgmt",
+          "icon": ""
+        },
+        {
+          "id": "SETLTXN_02",
+          "name": "정산청구 조회",
+          "url": "/onm/setlTxn/setlBillTrtMgmt",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "SETLREPOT",
+      "name": "정산통계",
+      "url": "/onm/setlTxn",
+      "icon": "icon-graph",
+      "children": [
+        {
+          "id": "SETLREPOT_01",
+          "name": "정산내역 통계",
+          "url": "/onm/setlTxn/setlDstrbStat",
+          "icon": ""
+        },
+        {
+          "id": "SETLREPOT_02",
+          "name": "정산청구 통계",
+          "url": "/onm/setlTxn/setlBillStatMgmt",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "INSTN",
+      "title": true,
+      "name": "연동기관관리"
+    },
+    {
+      "id": "MEDI",
+      "name": "의료중개기관",
+      "url": "/onm/instn/",
+      "icon": "fa fa-hospital-o",
+      "children": [
+        {
+          "id": "MEDI_01",
+          "name": "의료중개기관 정보관리",
+          "url": "/onm/instn/medicalInstnMgmt",
+          "icon": ""
+        },
+        {
+          "id": "MEDI_02",
+          "name": "의료중개기관 연동정보관리",
+          "url": "/onm/instn/medicalInstnIfSysMgmt",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "ICOM",
+      "name": "보험사",
+      "url": "/onm/instn/",
+      "icon": "icon-briefcase",
+      "children": [
+        {
+          "id": "ICOM_01",
+          "name": "보험사 정보관리",
+          "url": "/onm/instn/icomMgmt",
+          "icon": ""
+        },
+        {
+          "id": "ICOM_02",
+          "name": "보험사 연동정보관리",
+          "url": "/onm/instn/icomSysMgmt",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "ONM",
+      "title": true,
+      "name": "시스템 관리"
+    },
+    {
+      "id": "ONM_01",
+      "name": "사용자 관리",
+      "url": "/onm",
+      "icon": "icon-user",
+      "children": [
+        {
+          "id": "ONM_01_03",
+          "name": "사용자 관리",
+          "url": "/onm/sys/userMgmt",
+          "icon": ""
+        },
+        {
+          "id": "ONM_01_02",
+          "name": "권한 관리",
+          "url": "/onm/sys/menuAutMgmt",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "ONM_02",
+      "name": "자원 관리",
+      "url": "/onm/sys/SysMenuMgmt",
+      "icon": "icon-wrench"
+    },
+    {
+      "id": "ONM_03",
+      "name": "코드 정보 관리",
+      "url": "/onm/sys/codeMgmt",
+      "icon": "icon-pencil"
+    }
+  ]
+}

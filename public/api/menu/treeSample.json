@@ -1,0 +1,142 @@
+{
+  "items": [
+    {
+      "id": "MEDI",
+      "title": true,
+      "name": "중개 관리",
+      "wrapper": {
+        "element": "",
+        "attributes": {}
+      },
+      "class": ""
+    },
+    {
+      "id": "MEDI_01",
+      "name": "중개 대시보드",
+      "url": "/dashboard",
+      "icon": "icon-speedometer"
+    },
+    {
+      "id": "SETL",
+      "title": true,
+      "name": "정산 관리"
+    },
+    {
+      "id": "SETL_01",
+      "name": "정산 기준 관리",
+      "url": "/setlBase",
+      "icon": "icon-doc",
+      "children": [
+        {
+          "id": "SETL_01_01",
+          "name": "정산 항목 관리",
+          "url": "/setlBase/setlItemMgmt",
+          "icon": ""
+        },
+        {
+          "id": "SETL_01_02",
+          "name": "정산 요율 관리",
+          "url": "/setlBase/setlRat",
+          "icon": ""
+        },
+        {
+          "id": "SETL_01_03",
+          "name": "정산 대상 관리",
+          "url": "/setlBase/setlTgt",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "SETL_02",
+      "name": "정산 내역 관리",
+      "url": "/setl",
+      "icon": "icon-layers",
+      "children": [
+        {
+          "id": "SETL_02_01",
+          "name": "정산 내역",
+          "url": "/setl/setlTxn",
+          "icon": ""
+        },
+        {
+          "id": "SETL_02_02",
+          "name": "정산 통계",
+          "url": "/setl/setlBill",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "IFINSTN",
+      "title": true,
+      "name": "연동기관"
+    },
+    {
+      "id": "IFINSTN_01",
+      "name": "연동 기관 관리",
+      "url": "/ifInstn",
+      "icon": "icon-refresh",
+      "children": [
+        {
+          "id": "IFINSTN_01_01",
+          "name": "의료기관",
+          "url": "/ifInstn/ifMedi",
+          "icon": ""
+        },
+        {
+          "id": "IFINSTN_01_02",
+          "name": "보험사",
+          "url": "/ifInstn/ifInsur",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "ONM",
+      "title": true,
+      "name": "시스템 관리",
+      "children": [
+        {
+          "id": "ONM_01",
+          "name": "사용자 관리",      
+          "url": "/onm",
+          "icon": "icon-people",
+          "children": [
+            {
+              "id": "ONM_01_03",
+              "name": "사용자 관리",
+              "url": "/onm/sys/userMgmt",
+              "icon": ""
+            },
+            {
+              "id": "ONM_01_01",
+              "name": "사용자/권한 관리",
+              "url": "/onm/userMgmt",
+              "icon": ""
+            },
+            {
+              "id": "ONM_01_02",
+              "name": "메뉴/권한 관리",
+              "check": true,
+              "url": "/onm/sys/menuAutMgmt",
+              "icon": ""
+            }
+          ]
+        },
+        {
+          "id": "ONM_02",
+          "name": "메뉴 관리",
+          "url": "/onm/sys/SysMenuMgmt",
+          "icon": "icon-menu"
+        },
+        {
+          "id": "1ONM_03",
+          "name": "코드 정보 관리",
+          "url": "/onm/sys/codeMgmt",
+          "icon": "icon-pencil"
+        }
+      ]
+    }
+  ]
+}
